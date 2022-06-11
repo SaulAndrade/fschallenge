@@ -1,2 +1,6 @@
 .git
 .venv
+__pycache__/
+initDB/__pycache__/
+initDB/models/__pycache__/
+initDB/tests/__pycache__/
