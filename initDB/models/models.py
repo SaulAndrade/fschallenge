@@ -28,8 +28,8 @@ class Schedule:
         start_datetime = self.insert_random_time(day, month, year)
         
         self.bus_id = bus_id
-        self.start = start_datetime.isoformat()
-        self.end = self.add_random_time_span(start_datetime).isoformat()
+        self.start = start_datetime
+        self.end = self.add_random_time_span(start_datetime)
 
     def __repr__(self):
         start = date_parser.parse(self.start)
